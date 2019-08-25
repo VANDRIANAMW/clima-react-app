@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{ 
+  margin:0;padding:0;font-family:sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+nav .brand-logo {
+  display:block;
+  text-align:center;
+  position:relative
 }
+
+.input-field input[type=text]:focus+label,.input-field label {
+  color:#fff
+}
+
+.input-field input[type=text]:focus { 
+  border-bottom:1px solid #fff;
+  -webkit-box-shadow:0 1px 0 0 #000;
+  box-shadow:0 1px 0 0 #000
+}
+
+input[type=text]:not(.browser-default) { 
+   border-bottom:1px solid #fff;color:#fff
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) { 
+    border-bottom:1px solid #fff;
+    -webkit-box-shadow:0 1px 0 0 #fff;
+    box-shadow:0 1px 0 0 #fff
+}
+  
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+      color:#fff
+}
+  
+div.contenedor-form {
+  padding:3rem 0 1px;
+  background:#03a9f4;
+}
+
+#contenedor-form {
+  background:#03a9f4;
+}
+      
+.buscador i {
+   width:100%
+}
+      
+.error {
+  color:#fff;
+  text-align:center
+}
+        
+.error,.resultado {
+  margin-top:3rem
+}
+    
+.black-text h2 {
+  font-size:1.6rem;
+  text-align:center
+}
+#condicional {
+  height: 30px;
+  color: #fff;
+}
+    
+.temperaturam { 
+  text-align:center;
+  font-size:1.4rem;
+  font-weight:normal;
+}
+    
+.temperatura { 
+  font-size: 2.5rem;
+  text-align: center; 
+}
+
+
+/*# sourceMappingURL=main.a9cbb37d.css.map*/
